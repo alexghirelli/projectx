@@ -6,8 +6,10 @@ import { authOptions } from "@/lib/auth";
 import { getCurrentUser } from "@/lib/session";
 import { isValidJSONString } from "@/lib/utils";
 import { CategoriesDashboard } from "@/components/categories/components/categories-dashboard";
-import { accounts, mails } from "@/components/investments/data";
+import { accounts } from "@/components/investments/data";
+
 import { RecurringDashboard } from "@/components/transactions/components/recurring-dashboard";
+import { mails } from "@/components/transactions/data";
 
 export const metadata = {
   title: "Transactions",
