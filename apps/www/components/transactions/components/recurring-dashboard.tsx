@@ -44,6 +44,7 @@ import { Investmentcards } from "@/components/recurring/components/investment-ca
 import { Nav } from "@/components/transactions/components/nav";
 import { SmallInvestmentCard } from "@/components/recurring/components/small-investment-card";
 import { RecurringSpentSoFarCard } from "@/components/recurring/components/total-balance-card";
+import { mails } from "@/components/recurring/data";
 
 interface MailProps {
   accounts: {
@@ -59,7 +60,6 @@ interface MailProps {
 
 export function RecurringDashboard({
   accounts,
-  mails,
   defaultLayout = [265, 440, 400],
   defaultCollapsed = false,
   navCollapsedSize,
