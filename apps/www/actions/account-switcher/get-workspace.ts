@@ -11,7 +11,7 @@ export async function getUserWorkspaces() {
   //   console.log(`Request received to get workspaces for User ID: ${userId}`);
 
   try {
-    const workspaceData = await prisma?.workspace?.findMany({
+    const workspaceData = await prisma.workspace.findMany({
       where: { userId },
       select: {
         id: true,
