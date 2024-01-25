@@ -37,13 +37,13 @@ import { useMail } from "../use-mail";
 import { AccountSwitcher } from "./account-switcher";
 import { AccountsList } from "./accounts-list";
 import { CategoriesTable } from "./allocation-table";
-import { RecurringTableNext } from "./allocation-table-next";
 import { CategoriesDisplay } from "./categories-display";
 import { HoldingsTable } from "./holdings-table";
 import { Investmentcards } from "./investment-cards";
 import { Nav } from "./nav";
 import { SmallInvestmentCard } from "./small-investment-card";
 import { RecurringSpentSoFarCard } from "./total-balance-card";
+import { RecurringTableNext } from "@/components/transactions/components/allocation-table-next";
 
 interface MailProps {
   accounts: {
