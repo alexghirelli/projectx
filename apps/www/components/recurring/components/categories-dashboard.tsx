@@ -31,6 +31,7 @@ import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { TopCategoriesTable } from "@/components/new-dashboard/components/top-categories-table";
+import { RecurringTableNext } from "@/components/transactions/components/allocation-table-next";
 
 import { Mail } from "../data";
 import { useMail } from "../use-mail";
@@ -43,7 +44,6 @@ import { Investmentcards } from "./investment-cards";
 import { Nav } from "./nav";
 import { SmallInvestmentCard } from "./small-investment-card";
 import { RecurringSpentSoFarCard } from "./total-balance-card";
-import { RecurringTableNext } from "@/components/transactions/components/allocation-table-next";
 
 interface MailProps {
   accounts: {
